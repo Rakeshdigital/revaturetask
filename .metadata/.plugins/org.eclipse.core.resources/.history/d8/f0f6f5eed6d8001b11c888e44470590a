@@ -1,0 +1,12 @@
+package constructor;
+
+public class calculator {
+	
+	int x;
+	int y;
+	 public ststic void add()
+	 {
+		 System.out.primtln("Result of"+x+" + "+y+" = "+(x+y));
+	 }
+
+}

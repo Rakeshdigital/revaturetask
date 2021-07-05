@@ -1,0 +1,21 @@
+package w1task;
+
+public class removeduplicates {
+	public static void main(String[] args) {
+		
+		int arr[]= {1,2,3,1,4,2,5,3,6,7,8,4,5,9};
+		for(int i=0;i<arr.length;i++)
+		{
+			if(arr[i]==arr[i+arr.length])
+			{
+				System.out.println("its duplicates"+arr[i]);
+			}
+			else
+			{
+				System.out.println("numbers are"+arr[i]);
+			}
+		}
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package w1task;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		int ar[]= {12321,2345432,234565432} ;
+		System.out.println(ar.toString());
+		for(int i=0;i<ar.length;i++)
+		{
+		  ar[i]=ar[i]/10;
+		  
+		  
+		}
+
+	}
+
+}

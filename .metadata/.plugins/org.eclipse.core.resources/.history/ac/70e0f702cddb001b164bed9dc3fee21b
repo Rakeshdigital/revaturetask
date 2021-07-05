@@ -1,0 +1,28 @@
+package w1task;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		int ar[]= {123,1234321,23432,34543} ;
+		for(int i=0;i<ar.length;i++)
+		{
+			int ar1[i];
+			//int n=ar[i];
+			int p=0, s=0;
+			while(ar1[i]>0)
+			{
+				s=ar1[i]%10;
+				p=p*10+s;
+				ar1[i]=ar1[i]/10;
+			}
+			if(p==ar1[i])
+			{
+				System.out.println("hey its polindrom number"+ar1[i]);
+				
+			}
+			else
+				System.out.println("its not polindrom number yar"+ar1[i]);
+		}
+	}
+
+}

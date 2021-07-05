@@ -1,0 +1,29 @@
+package w1task;
+import java.util.Arrays;
+
+public class removeduplicates {
+	public static void main(String[] args) {
+		
+		int arr[]= {1,2,3,1,4,2,5,3,6,7,8,4,5,9};
+	   // int n=Arrays arr[];
+		for(int i=0;i<arr.length;i++)
+		{
+			int n=arr[i];
+			for(int j=1;j<=arr.length;j++)
+			{
+			  int n1=arr[j];
+			if(n==n1)
+			{
+
+				//System.out.println(arr[i]+" is duplicate of "+arr[i]);
+				//System.out.println("numbers are"+arr[j]);
+			}
+			else
+				System.out.println("numbers are"+n);
+			}
+			
+	}
+		
+}
+}
+

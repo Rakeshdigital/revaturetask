@@ -1,0 +1,8 @@
+package w1task;
+
+public class removeduplicatenumber {
+	public static void main(String[] args) {
+		
+	}
+	
+}

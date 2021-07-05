@@ -1,0 +1,9 @@
+package mypack.subpack;
+
+public class MyFastJavaClass {
+
+	public static void main(String[] args)
+	{
+		System.out.println("hey man");
+	}
+}

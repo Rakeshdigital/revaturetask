@@ -1,0 +1,39 @@
+package eg1;
+
+import java.util.Arrays;
+
+public class AnagramDemo {
+
+	public static void main(String[] args) {
+		
+		String s1="hello";
+		String s2="e l ho le";
+		
+		char c1[]=s1.replaceAll(" ", "").toCharArray();
+		char c2[]=s2.replaceAll(" ", "").toCharArray();
+		
+		Arrays.sort(c1);
+		Arrays.sort(c2);
+		
+		if(Arrays.equals(c1, c2)) {
+			System.out.println("Yes anagram");
+		}else {
+			System.out.println("No Anagram");
+		}
+
+	}
+
+}
+/*
+ * Tasks  	1)Find all the palindrome numbers in an array
+ * 			2)Find all prime numbers in an array
+ * 			3)Find average of even and odd numbers in array														 				012345	
+ * 			4)Find the characters of a string which are in prime index position and print them in uppercase(remove spaces) Eg ->helllo  ->11o->LLO
+ * 			5)Find if all the vowels are present in String are not.
+ * 			6)Find if all the vowels in a proper order of aeiou is present in String or not. Eg -> waexiommmmu
+ * 			7)Remove all the duplicates in array
+ * 			8)Remove all duplicate characters from a string
+ * 			9)Print the number which is occuring highest number of times in array.
+ * 			10)Print the 2nd highest number in array(there will be duplicates)
+ */
+

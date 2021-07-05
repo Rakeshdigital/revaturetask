@@ -1,0 +1,20 @@
+package w1task;
+import java.util.Arrays;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		int ar[]= {12321} ;
+		for(int i=0;i<ar.length;i++)
+		{
+		  ar[i]=ar[i]%10;
+		  ar[i]=ar[i]+i;
+		  
+		 //ar[i]=ar[i];
+		  
+		
+        System.out.println(ar[i]);
+		}
+	}
+
+}
